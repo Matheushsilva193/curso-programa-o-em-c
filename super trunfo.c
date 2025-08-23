@@ -83,7 +83,7 @@ scanf("%d",&pontos_turisticos2);
 printf("CARTA 1\n Estado : %c\n codigo da carta : %s\n nome da cidade : %s\n Populacao : %d\n Area : %.2f km2\n PIB : %.2f\n pontos turisticos : %d\n ",estado1,codigo1,nome_cidade1,populacao1,area_demografica1,pib1,pontos_turisticos1);
 
 
-printf("CARTA 2\n estado : %s\n codigo da carta : %s\n nome da cidade : %s\n populacao : %d\n area : %.2f km2\n PIB : %.2f\n Pontos Turisticos : %d",estado2,codigo2,nome_cidade2,populacao2,area_demografica2,PIB2,pontos_turisticos2);
+printf("CARTA 2\n estado : %s\n codigo da carta : %s\n nome da cidade : %s\n populacao : %d\n area : %.2f km2\n PIB : %.2f\n Pontos Turisticos : %d\n",estado2,codigo2,nome_cidade2,populacao2,area_demografica2,PIB2,pontos_turisticos2);
 
 
 
