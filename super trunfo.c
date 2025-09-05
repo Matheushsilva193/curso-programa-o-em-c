@@ -77,13 +77,25 @@ int pontos_turisticos2;
 printf("digite o numero de pontos turisticos");
 scanf("%d",&pontos_turisticos2);
 
+float densidade1;
+densidade1 = (populacao1 / area_demografica1);
+
+float densidade2;
+densidade2 = (populacao2 / area_demografica2);
+
+
+float pibcapital;
+pibcapital =(populacao1 / pib1);
+
+float pibcapital2;
+pibcapital2 = (populacao2 / PIB2);
 
 //leitura das cartas
 
-printf("CARTA 1\n Estado : %c\n codigo da carta : %s\n nome da cidade : %s\n Populacao : %d\n Area : %.2f km2\n PIB : %.2f\n pontos turisticos : %d\n ",estado1,codigo1,nome_cidade1,populacao1,area_demografica1,pib1,pontos_turisticos1);
+printf("CARTA 1\n Estado : %c\n codigo da carta : %s\n nome da cidade : %s\n Populacao : %d\n Area : %.2f km2\n PIB : %.2f\n pontos turisticos : %d\n Densidade Populacional : %.4f\n Pib Per Capita : %.4f\n",estado1,codigo1,nome_cidade1,populacao1,area_demografica1,pib1,pontos_turisticos1,densidade1,pibcapital1);
 
 
-printf("CARTA 2\n estado : %s\n codigo da carta : %s\n nome da cidade : %s\n populacao : %d\n area : %.2f km2\n PIB : %.2f\n Pontos Turisticos : %d\n",estado2,codigo2,nome_cidade2,populacao2,area_demografica2,PIB2,pontos_turisticos2);
+printf("CARTA 2\n estado : %s\n codigo da carta : %s\n nome da cidade : %s\n populacao : %d\n area : %.2f km2\n PIB : %.2f\n Pontos Turisticos : %d\n Densidade Populacional : %.4f\n Pib Per Capita : %.4f\n ",estado2,codigo2,nome_cidade2,populacao2,area_demografica2,PIB2,pontos_turisticos2,densidade2,pibcapital2);
 
 
 
